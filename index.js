@@ -123,11 +123,10 @@ console.log(enkucuk);
 
 // 3b çözümü:
 ucetambolunenler = [];
-sayilar.forEach((i, ucetambolunenler) => {
-  if (sayilar[i] % 3 === 0) {
-    ucetambolunenler.push(sayilar[i]);
+sayilar.forEach((eleman) => {
+  if (eleman % 3 === 0) {
+    ucetambolunenler.push(eleman);
   }
-  return ucetambolunenler;
 });
 
 // 3c çözümü:
